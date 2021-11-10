@@ -13,6 +13,7 @@ public class DselectorAppApplication {
 		SpringApplication.run(DselectorAppApplication.class, args);
 	}
 
+	/*
 	@Bean
 	public WebMvcConfigurer corsConfigurer() {
 		return new WebMvcConfigurer() {
@@ -22,5 +23,6 @@ public class DselectorAppApplication {
 			}
 		};
 	}
+	*/
 
 }
