@@ -33,7 +33,7 @@ public class FirewallLogsController {
     @GetMapping("/")
     public ResponseEntity<?> getFirewallLogs(){
         Socket socket;
-        String firewallIp = "192.168.1.1";
+        String firewallIp = "192.168.100.1";
         int firewallPort = 444;
         BufferedReader socketInputData;
         String line;
